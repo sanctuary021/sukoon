@@ -53,33 +53,32 @@
 }
 
 /* ========== Цвета отдельных иконок ========== */
-/* Telegram */
+
+/* VK */
 .ph-chats-teardrop.buttonIcon {
-  color: №499EF5 !important;
+  color: #3399ff !important;
 }
 
 .darktheme .ph-chats-teardrop.buttonIcon {
-  color: №499EF5 !important;
+  color: #3399ff !important;
 }
 
-/* ========== Цвета отдельных иконок ========== */
-
-/* Telegram */
-.ph-chats-teardrop.buttonIcon {
-  color: #499EF5 !important;
+/*Telegram*/
+.ph-paper-plane-tilt.buttonIcon {
+  color: #F0F0F0 !important;
 }
 
-.darktheme .ph-chats-teardrop.buttonIcon {
-  color: #499EF5 !important;
+.darktheme .ph-paper-plane-tilt.buttonIcon {
+  color: #F0F0F0 !important;
 }
 
 /* YouTube */
 .ph-youtube-logo.buttonIcon {
-  color: #F54949 !important;
+  color: #F0F0F0 !important;
 }
 
 .darktheme .ph-youtube-logo.buttonIcon {
-  color: #F54949 !important;
+  color: #F0F0F0 !important;
 }
 
 .ph-github-logo.buttonIcon {
