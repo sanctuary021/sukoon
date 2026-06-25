@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Sukoon</title>
+		<link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg" />
+		<link rel="stylesheet" href="app.css" />
+		<script src="config.js"></script>
+		<script>
+			(function() {
+				document.documentElement.classList.add('notransition');
+
+				const getDefaultTheme = () => {
+					let isDark = false;
+					if (window.CONFIG && CONFIG.autoChangeTheme) {
+						if (CONFIG.changeThemeByOS) {
+							isDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+						} else if (CONFIG.changeThemeByHour && !CONFIG.changeThemeByOS) {
+							const date = new Date();
+							const hours = date.getHours() < 10 ? '0' + date.getHours().toString() : date.getHours().toString();
+							const minutes = date.getMinutes() < 10 ? '0' + date.getMinutes().toString() : date.getMinutes().toString();
+							const currentTime = hours + ':' + minutes;
+							if (currentTime >= CONFIG.hourDarkThemeActive) {
+								isDark = true;
+							} else if (currentTime >= CONFIG.hourDarkThemeInactive) {
+								isDark = false;
+							}
+						}
+					}
+					return isDark ? 'dark' : 'light';
+				};
+
+				const currentDefault = getDefaultTheme();
+				const lastDefault = localStorage.getItem('lastDefaultTheme');
+				const userOverride = localStorage.getItem('userOverrideTheme');
+				
+				let finalTheme = currentDefault;
+				
+				if (lastDefault === currentDefault) {
+					if (userOverride === 'dark') {
+						finalTheme = 'dark';
+					} else if (userOverride === 'light') {
+						finalTheme = 'light';
+					}
+				}
+				
+				if (finalTheme === 'dark') {
+					document.documentElement.classList.add('darktheme');
+				} else {
+					document.documentElement.classList.remove('darktheme');
+				}
+			})();
+		</script>
+		<link rel="stylesheet" type="text/css" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/regular/style.css" />
+	</head>
+
+	<!--
+      ┌─┐┌─┐┌┐┐┌─┐┌─┐┌─┐
+      └─┐│ │││││ ┬├┤ └─┐
+      └─┘└─┘┘└┘└─┘└─┘└─┘
+      -->
+
+	<body class="">
+		<button id="themeButton">
+			<i id="themeIcon" class="ph ph-moon"></i>
+		</button>
+		<div class="container">
+			<!-- Clock and Greetings  -->
+
+			<div class="timeBlock">
+				<div class="clock">
+					<div id="hour"></div>
+					<div id="separator"></div>
+					<div id="minutes"></div>
+				</div>
+				<div id="greetings"></div>
+			</div>
+
+			<!-- Date and Weather  -->
+
+			<div class="weatherBlock">
+				<div id="fullDate" class="fullDate"></div>
+				<div class="weatherDivider"></div>
+				<div class="weather">
+					<div class="weatherValue">
+						<p>-°<span class="unit">C</span></p>
+					</div>
+					<div class="weatherSeparator">·</div>
+					<div class="weatherDescription">
+						<p>Loading...</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="linksBlock" id="linksBlock">
+				<div class="linksBlockLeft" id="linksBlockLeft"></div>
+				<div class="linksBlockRight" id="linksBlockRight"></div>
+			</div>
+		</div>
+
+		<!-- Config  -->
+
+		<!-- Scripts  -->
+		<script src="assets/js/layout.js"></script>
+		<script src="assets/js/theme.js"></script>
+		<script src="assets/js/time.js"></script>
+		<script src="assets/js/greeting.js"></script>
+		<script src="assets/js/weather.js"></script>
+
+		<!-- Generators  -->
+		<script src="assets/js/buttons.js"></script>
+		<script src="assets/js/lists.js"></script>
+
+
+	</body>
+
+	<!-- Based on Bento by Miguel Ávila (avila.sh) -->
+	<!-- Sukoon by Divyansh Chandhok -->
+</html>

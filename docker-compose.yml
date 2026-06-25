@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  sukoon:
+    build: .
+    volumes:
+      - ./config.js:/usr/share/nginx/html/config.js
+    ports:
+      - 80:80
