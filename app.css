@@ -65,13 +65,18 @@
 /* ========== Цвета отдельных иконок ========== */
 /* Telegram */
 .ph-chats-teardrop.buttonIcon {
-  color: #40E0D0 !important;
+  color: №499EF50 !important;
 }
 
 .darktheme .ph-chats-teardrop.buttonIcon {
-  color: #40E0D0 !important;
+  color: №499EF5 !important;
 }
 
+.ph-youtube-logo.buttonIcon {
+  color: #F54949 !important;
+
+.darktheme .ph-youtube-logo.buttonIcon {
+  color: #F54949 !important;
 /* Пример для других иконок — просто копируй и меняй класс */
 /*
 .ph-github-logo.buttonIcon {
