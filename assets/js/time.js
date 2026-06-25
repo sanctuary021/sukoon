@@ -1,7 +1,7 @@
 window.onload = displayClock();
 function displayClock() {
 	var d = new Date();
-	var min = (mins = ('0' + d.getMinutes()).slice(-2));
+	var min = ('0' + d.getMinutes()).slice(-2);
 	var hh = d.getHours();
 	var ampm = '';
 
@@ -18,11 +18,14 @@ function displayClock() {
 	document.getElementById('minutes').innerText = min + ampm;
 
 	var dayOfWeek = d.toLocaleDateString(CONFIG.language, { weekday: 'long' });
-var month = d.toLocaleDateString(CONFIG.language, { month: 'long' });
-var day = d.toLocaleDateString(CONFIG.language, { day: 'numeric' });
+	var month = d.toLocaleDateString(CONFIG.language, { month: 'long' });
+	var day = d.toLocaleDateString(CONFIG.language, { day: 'numeric' });
 
-// Делаем первую букву заглавной (для русского языка)
-dayOfWeek = dayOfWeek.charAt(0).toUpperCase() + dayOfWeek.slice(1);
-month = month.charAt(0).toUpperCase() + month.slice(1);
+	// Заглавная первая буква
+	dayOfWeek = dayOfWeek.charAt(0).toUpperCase() + dayOfWeek.slice(1);
+	month = month.charAt(0).toUpperCase() + month.slice(1);
 
-document.getElementById('fullDate').innerHTML = `<span class="dateAccent">${dayOfWeek}</span>, ${month} <span class="dateAccent">${day}</span>`;
+	document.getElementById('fullDate').innerHTML = `<span class="dateAccent">${dayOfWeek}</span>, ${month} <span class="dateAccent">${day}</span>`;
+
+	setTimeout(displayClock, 1000);
+}
