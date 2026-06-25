@@ -51,9 +51,9 @@ const CONFIG = {
 	firstButtonsContainer: [
 		{
 			id: '1',
-			name: 'GitHub',
-			icon: 'github-logo',
-			link: 'https://github.com/',
+			name: 'VK',
+			icon: 'chats-teardrop',
+			link: 'https://vk.com/',
 		},
 		{
 			id: '2',
@@ -63,27 +63,27 @@ const CONFIG = {
 		},
 		{
 			id: '3',
-			name: 'YouTube',
+			name: 'Discord',
+			icon: 'discord-logo',
+			link: 'https://discord.com/',
+		},
+		{
+			id: '4',
+			name: 'Github',
+			icon: 'github-logo',
+			link: 'https://github.com/',
+		},
+		{
+			id: '5',
+			name: 'Youtube',
 			icon: 'youtube-logo',
 			link: 'https://youtube.com/',
 		},
 		{
-			id: '4',
-			name: 'Reddit',
-			icon: 'hash',
-			link: 'https://reddit.com/',
-		},
-		{
-			id: '5',
-			name: 'Twitter',
-			icon: 'x-logo',
-			link: 'https://x.com/',
-		},
-		{
 			id: '6',
-			name: 'Discord',
-			icon: 'discord-logo',
-			link: 'https://discord.com/app',
+			name: 'Reddit',
+			icon: 'reddit-logo',
+			link: 'https://reddit.com/',
 		},
 	],
 
