@@ -65,18 +65,18 @@
 
 /* Telegram */
 .ph-paper-plane-tilt.buttonIcon {
-  color: #1A1A1A !important;
+  color: #1b1818ff !important;
 }
 .darktheme .ph-paper-plane-tilt.buttonIcon {
-  color: #F0F0F0 !important;
+  color: #1b1818ff !important;
 }
 
 /* YouTube */
 .ph-youtube-logo.buttonIcon {
-  color: #E5E5E5 !important;
+  color: #f8eaeaff !important;
 }
 .darktheme .ph-youtube-logo.buttonIcon {
-  color: #FFFFFF !important;
+  color: #f8eaeaff !important;
 }
 
 /* Github */
