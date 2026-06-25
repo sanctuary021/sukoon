@@ -57,9 +57,9 @@ const CONFIG = {
 		},
 		{
 			id: '2',
-			name: 'Mail',
-			icon: 'envelope-simple',
-			link: 'https://mail.google.com/',
+			name: 'Telegram',
+			icon: 'chats-teardrop',
+			link: 'https://web.telegram.org/',
 		},
 		{
 			id: '3',
