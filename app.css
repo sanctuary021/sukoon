@@ -97,6 +97,15 @@
 .darktheme .ph-reddit-logo.buttonIcon {
   color: #F49097 !important
 }
+
+/* Discord */
+.ph-discord-logo.buttonIcon {
+  color: #453a8e !important
+}
+
+.darktheme .ph-discord-logo.buttonIcon {
+  color: #453a8e !important
+}
 /* S T Y L E S */
 
 html {
