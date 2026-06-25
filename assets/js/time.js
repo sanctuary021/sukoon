@@ -18,7 +18,7 @@ function displayClock() {
 	document.getElementById('minutes').innerText = min + ampm;
 
 	var dayOfWeek = d.toLocaleDateString(CONFIG.language, { weekday: 'long' });
-	var month = d.toLocaleDateString(CONFIG.language, { month: 'short' });
+	var month = d.toLocaleDateString(CONFIG.language, { month: 'long' });
 	var day = d.toLocaleDateString(CONFIG.language, { day: 'numeric' });
 
 	document.getElementById('fullDate').innerHTML = `<span class="dateAccent">${dayOfWeek}</span>, ${month} <span class="dateAccent">${day}</span>`;
