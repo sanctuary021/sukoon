@@ -52,6 +52,37 @@
   ); /* Filter color */
 }
 
+/* ========== Цвета отдельных иконок ========== */
+/* Telegram */
+.ph-chats-teardrop.buttonIcon {
+  color: #26A5E4 !important;
+}
+
+.darktheme .ph-chats-teardrop.buttonIcon {
+  color: #60a5fa !important;
+}
+
+/* ========== Цвета отдельных иконок ========== */
+/* Telegram */
+.ph-chats-teardrop.buttonIcon {
+  color: #40E0D0 !important;
+}
+
+.darktheme .ph-chats-teardrop.buttonIcon {
+  color: #40E0D0 !important;
+}
+
+/* Пример для других иконок — просто копируй и меняй класс */
+/*
+.ph-github-logo.buttonIcon {
+  color: #8b5cf6 !important;
+}
+
+.darktheme .ph-github-logo.buttonIcon {
+  color: #a78bfa !important;
+}
+*/
+
 /* S T Y L E S */
 
 html {
