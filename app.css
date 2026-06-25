@@ -63,23 +63,23 @@
   color: #3399ff !important;
 }
 
-/*Telegram*/
+/* Telegram */
 .ph-paper-plane-tilt.buttonIcon {
-  color: #F0F0F0 !important;
+  color: #1A1A1A !important;
 }
-
 .darktheme .ph-paper-plane-tilt.buttonIcon {
   color: #F0F0F0 !important;
 }
 
 /* YouTube */
 .ph-youtube-logo.buttonIcon {
-  color: #F0F0F0 !important;
+  color: #E5E5E5 !important;
+}
+.darktheme .ph-youtube-logo.buttonIcon {
+  color: #FFFFFF !important;
 }
 
-.darktheme .ph-youtube-logo.buttonIcon {
-  color: #F0F0F0 !important;
-}
+/* Github */
 
 .ph-github-logo.buttonIcon {
   color: #C5052B !important;
