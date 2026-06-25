@@ -65,18 +65,18 @@
 
 /* Telegram */
 .ph-paper-plane-tilt.buttonIcon {
-  color: #1b1818ff !important;
+  color: #CCC9E7 !important;
 }
 .darktheme .ph-paper-plane-tilt.buttonIcon {
-  color: #1b1818ff !important;
+  color: #CCC9E7 !important;
 }
 
 /* YouTube */
 .ph-youtube-logo.buttonIcon {
-  color: #f8eaeaff !important;
+  color: #CCC9E7 !important;
 }
 .darktheme .ph-youtube-logo.buttonIcon {
-  color: #f8eaeaff !important;
+  color: #CCC9E7 !important;
 }
 
 /* Github */
@@ -86,9 +86,17 @@
 }
 
 .darktheme .ph-github-logo.buttonIcon {
-  color :#C5052B !important;
+  color: #C5052B !important;
 }
 
+/* Reddit */
+.ph-reddit-logo.buttonIcon {
+  color: #F49097 !important;
+}
+
+.darktheme .ph-github-logo.buttonIcon {
+  color: #F49097 !important
+}
 /* S T Y L E S */
 
 html {
