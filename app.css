@@ -54,58 +54,56 @@
 
 /* ========== Цвета отдельных иконок ========== */
 
-/* VK */
-.ph-chats-teardrop.buttonIcon {
-  color: #3399ff !important;
-}
+/* ========== Цвета отдельных иконок ========== */
 
-.darktheme .ph-chats-teardrop.buttonIcon {
+/* VK */
+.ph-vk-logo.buttonIcon {
+  color: #0077FF !important;
+}
+.darktheme .ph-vk-logo.buttonIcon {
   color: #3399ff !important;
 }
 
 /* Telegram */
 .ph-paper-plane-tilt.buttonIcon {
-  color: #CCC9E7 !important;
+  color: #24A1DE !important;
 }
 .darktheme .ph-paper-plane-tilt.buttonIcon {
-  color: #CCC9E7 !important;
+  color: #5bb8e8 !important;
 }
 
 /* YouTube */
 .ph-youtube-logo.buttonIcon {
-  color: #CCC9E7 !important;
+  color: #FF3D3D !important;
 }
 .darktheme .ph-youtube-logo.buttonIcon {
-  color: #CCC9E7 !important;
+  color: #FF3D3D !important;
 }
 
-/* Github */
-
+/* GitHub */
 .ph-github-logo.buttonIcon {
   color: #C5052B !important;
 }
-
 .darktheme .ph-github-logo.buttonIcon {
   color: #C5052B !important;
 }
 
 /* Reddit */
 .ph-reddit-logo.buttonIcon {
-  color: #F49097 !important;
+  color: #FF5700 !important;
 }
-
 .darktheme .ph-reddit-logo.buttonIcon {
-  color: #F49097 !important
+  color: #FF7A33 !important;
 }
 
 /* Discord */
 .ph-discord-logo.buttonIcon {
-  color: #BA55D3 !important
+  color: #5865F2 !important;
+}
+.darktheme .ph-discord-logo.buttonIcon {
+  color: #7983f5 !important;
 }
 
-.darktheme .ph-discord-logo.buttonIcon {
-  color: #BA55D3 !important
-}
 /* S T Y L E S */
 
 html {
