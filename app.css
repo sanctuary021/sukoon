@@ -57,11 +57,11 @@
 /* ========== Цвета отдельных иконок ========== */
 
 /* VK */
-.ph-vk-logo.buttonIcon {
+.ph-chats-teardrop.buttonIcon {
   color: #0077FF !important;
 }
-.darktheme .ph-vk-logo.buttonIcon {
-  color: #3399ff !important;
+.darktheme .ph-chats-teardrop.buttonIcon {
+  color: #0077FF !important;
 }
 
 /* Telegram */
