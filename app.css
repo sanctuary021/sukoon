@@ -63,20 +63,24 @@
 }
 
 /* ========== Цвета отдельных иконок ========== */
+
 /* Telegram */
 .ph-chats-teardrop.buttonIcon {
-  color: №499EF50 !important;
+  color: #499EF5 !important;
 }
 
 .darktheme .ph-chats-teardrop.buttonIcon {
-  color: №499EF5 !important;
+  color: #499EF5 !important;
 }
 
+/* YouTube */
 .ph-youtube-logo.buttonIcon {
   color: #F54949 !important;
+}
 
 .darktheme .ph-youtube-logo.buttonIcon {
   color: #F54949 !important;
+}
 /* Пример для других иконок — просто копируй и меняй класс */
 /*
 .ph-github-logo.buttonIcon {
