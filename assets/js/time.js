@@ -18,10 +18,11 @@ function displayClock() {
 	document.getElementById('minutes').innerText = min + ampm;
 
 	var dayOfWeek = d.toLocaleDateString(CONFIG.language, { weekday: 'long' });
-	var month = d.toLocaleDateString(CONFIG.language, { month: 'long' });
-	var day = d.toLocaleDateString(CONFIG.language, { day: 'numeric' });
+var month = d.toLocaleDateString(CONFIG.language, { month: 'long' });
+var day = d.toLocaleDateString(CONFIG.language, { day: 'numeric' });
 
-	document.getElementById('fullDate').innerHTML = `<span class="dateAccent">${dayOfWeek}</span>, ${month} <span class="dateAccent">${day}</span>`;
+// Делаем первую букву заглавной (для русского языка)
+dayOfWeek = dayOfWeek.charAt(0).toUpperCase() + dayOfWeek.slice(1);
+month = month.charAt(0).toUpperCase() + month.slice(1);
 
-	setTimeout(displayClock, 1000);
-}
+document.getElementById('fullDate').innerHTML = `<span class="dateAccent">${dayOfWeek}</span>, ${month} <span class="dateAccent">${day}</span>`;
