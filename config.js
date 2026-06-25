@@ -63,21 +63,21 @@ const CONFIG = {
 		},
 		{
 			id: '3',
-			name: 'Discord',
-			icon: 'discord-logo',
-			link: 'https://discord.com/',
-		},
-		{
-			id: '4',
 			name: 'Github',
 			icon: 'github-logo',
 			link: 'https://github.com/',
 		},
 		{
-			id: '5',
+			id: '4',
 			name: 'Youtube',
 			icon: 'youtube-logo',
 			link: 'https://youtube.com/',
+		},
+		{
+			id: '5',
+			name: 'Discord',
+			icon: 'discord-logo',
+			link: 'https://discord.com/',
 		},
 		{
 			id: '6',
