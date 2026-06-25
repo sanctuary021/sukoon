@@ -29,9 +29,9 @@ const CONFIG = {
 	weatherIcons: 'OneDark', // 'OneDark', 'Nord', 'Dark', 'White'
 	weatherUnit: 'C', // 'C' or 'F'
 	language: 'ru', // More languages at https://openweathermap.org/current#multi
-	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-	defaultLatitude: '0.0',
-	defaultLongitude: '0.0',
+	trackLocation: false, // If false or an error occurs, the app will use the lat/lon below
+	defaultLatitude: '56.8389',
+	defaultLongitude: '60.6057',
 
 	// Auto-change theme
 	autoChangeTheme: true,
