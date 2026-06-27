@@ -53,7 +53,7 @@ const CONFIG = {
 			id: '1',
 			name: 'VK',
 			icon: 'chats-teardrop',
-			link: 'https://vk.com/',
+			link: 'https://vk.com/im',
 		},
 		{
 			id: '2',
