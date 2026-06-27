@@ -144,7 +144,7 @@ const CONFIG = {
 					link: 'https://store.steampowered.com/',
 				},
 				{
-					name: 'EpicGames',
+					name: 'Epic',
 					link: 'https://store.epicgames.com/',
 				},
 				{
