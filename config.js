@@ -137,19 +137,19 @@ const CONFIG = {
 			links: [
 				{
 					name: 'Gmail',
-					link: 'https://mail.google.com/',
+					link: 'https://mail.google.com',
 				},
 				{
-					name: 'Calendar',
-					link: 'https://calendar.google.com/',
+					name: 'Steam',
+					link: 'https://store.steampowered.com/',
 				},
 				{
-					name: 'Drive',
-					link: 'https://drive.google.com/',
+					name: 'EpicGames',
+					link: 'https://store.epicgames.com/',
 				},
 				{
-					name: 'Keep',
-					link: 'https://keep.google.com/',
+					name: 'Mail',
+					link: 'https://e.mail.ru/messages/inbox/',
 				},
 			],
 		},
